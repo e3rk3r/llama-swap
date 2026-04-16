@@ -15,7 +15,7 @@ const version = "0.1.0"
 
 func main() {
 	var (
-		configFile  = flag.String("config", "config.yaml", "path to configuration file")
+		configFile  = flag.String("config", "config.yaml)
 		listenAddr  = flag.String("listen", ":8080", "address to listen on (host:port)")
 		showVersion = flag.Bool("version", false, "print version and exit")
 		logLevel    = flag.String("log-level", "info", "log level: debug, info, warn, error")
